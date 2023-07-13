@@ -1,6 +1,7 @@
 
 
 const Cart = ({ cart, handleRemoveFromCart }) => {
+    
     return (
         <div>
             <h2>Order summary: {cart.length}</h2>
@@ -16,3 +17,10 @@ const Cart = ({ cart, handleRemoveFromCart }) => {
 };
 
 export default Cart;
+
+
+/*
+// Conditional Rendeering
+- Use if else
+- ternary: condition? 'for true': 'false '
+*/ 
